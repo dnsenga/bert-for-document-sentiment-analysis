@@ -14,7 +14,7 @@ load_dataset.ipynb:
 ### BERT Base with an output layer
 trained_bert_base_model.ipynb:
 - Model from Hugging Face's Transformers Library (https://huggingface.co/transformers/):
-  - Embedding Layer
+  - Embedding Layer (Contextualized word embeddings)
   - 12 transformers
   - Output Layer
 - Hyperparameter tuning, Regularization, and Optimization
