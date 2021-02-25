@@ -24,21 +24,22 @@ trained_bert_base_model.ipynb:
   - Batch-size: 32
  
 ### BERT+LSTM (segment-based)
+Model: trained_chunk_lstm_over_bert.ipynb
 Segment-Based Data Manipulation:
 - Divide input in segments of fixed sizes
 - Consecutive segments are overlapping
 - Compute segment representation through BERT
 - Stack the segment representations in a sequence
 - Feed the sequence in an LSTM
-Model: trained_chunk_lstm_over_bert.ipynb
 
 ### BERT+LSTM (sentence-based)
+Model: trained_sentence_lstm_over_bert.ipynb
 Sentence-Based Data Manipulation:
 - Divide input in sentences of fixed size
   - Sentences may need to be truncanted or padded
 - Stack the sentence representations in a sequence 
 - Feed the sequence in an LSTM 
-Model: trained_sentence_lstm_over_bert.ipynb
+
   
 
 
